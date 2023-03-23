@@ -1,12 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Hero from '../components/Hero'
-import Slider from '../components/Slider'
-import { SliderData } from '../components/SliderData'
-import Box1 from '../components/Box1'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import { SliderData } from "../components/SliderData";
+import Events from "../components/Events";
+import Gallery from "../components/Gallery";
+import Jbtv from "../components/Jbtv";
+import Bureau from "../components/Bureau";
+import Histoire from "../components/Histoire";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -17,11 +20,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Captur Photography' message='I captur beautiful moments' />
-      <Box1 />
-      <div className='bg-2 h-screen bg-fixed bg-center bg-cover'></div>
-      <div className='bg-3 h-screen bg-fixed bg-center bg-cover'></div>
-      {/*<Slider slides={SliderData}/>*/}
+      <Hero heading="" message="" />
+      <Events />
+      <div className="bg-2 height bg-fixed bg-center bg-cover"></div>
+      <Gallery />
+      <div className="bg-3 height bg-fixed bg-center bg-cover"></div>
+      <Jbtv />
+      <div className="bg-4 height bg-fixed bg-center bg-cover"></div>
+      <Bureau />
+      <div className="bg-5 height bg-fixed bg-center bg-cover"></div>
+      <Histoire />
+      {/*<div className="bg-6 h-screen bg-fixed bg-center bg-cover"></div>*/}
     </>
-  )
+  );
 }

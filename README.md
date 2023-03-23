@@ -39,10 +39,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Organisation du site
 
+- Petit blog avec les evenements actuels
 - Présentation du bureau: photo, lien linkedin, telephone, mail, titre, nom
 - Présentation de nos activités: Rejoins nous
 - Lien vers galerie et quelques photos
 - Présentation et histoire de l'association
 - Sponsors
-- Petit blog avec les evenements actuels
 - Contacts

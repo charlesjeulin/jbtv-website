@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { SliderData } from '../components/SliderData'
+import { SliderData } from "../components/SliderData";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 const Slider = ({ slides }) => {
@@ -24,18 +24,39 @@ const Slider = ({ slides }) => {
       <div className="relative flex justify-center">
         {SliderData.map((slide, index) => {
           return (
-            <div key={index} className={index === current ? "opacity-[1] ease-in duration-1000" : "opacity-0"}>
-              <FaArrowCircleLeft onClick={prevSlide} className="absolute left-[30px] top-[50%] text-white z-[2] cursor-pointer select-none" size={30} />
+            <div
+              key={index}
+              className={
+                index === current
+                  ? "opacity-[1] ease-in duration-1000"
+                  : "opacity-0"
+              }
+            >
+              <FaArrowCircleLeft
+                onClick={prevSlide}
+                className="absolute left-[30px] top-[50%] text-white z-[2] cursor-pointer select-none"
+                size={30}
+              />
               {index === current && (
-                <Image src={slide.image} alt="/" width="1920" height="1080" style={{ objectFit: "cover" }} />
+                <Image
+                  src={slide.image}
+                  alt="/"
+                  width="1920"
+                  height="1080"
+                  style={{ objectFit: "cover" }}
+                />
               )}
-              <FaArrowCircleRight onClick={nextSlide} className="absolute right-[30px] top-[50%] text-white z-[2] cursor-pointer select-none" size={30} />
+              <FaArrowCircleRight
+                onClick={nextSlide}
+                className="absolute right-[30px] top-[50%] text-white z-[2] cursor-pointer select-none"
+                size={30}
+              />
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
+  );
 };
 
 export default Slider;
