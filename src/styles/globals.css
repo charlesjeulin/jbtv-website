@@ -8,27 +8,27 @@ html {
 }
 
 .custom-img {
-  background-image: url(/bg.jpg);
+  background-image: url(/background/bg.jpg);
 }
 
 .bg-2 {
-  background-image: url(/bg2.jpg);
+  background-image: url(/background//bg2.jpg);
 }
 
 .bg-3 {
-  background-image: url(/bg3.jpg);
+  background-image: url(/background//bg3.jpg);
 }
 
 .bg-4 {
-  background-image: url(/bg4.jpg);
+  background-image: url(/background//bg4.jpg);
 }
 
 .bg-5 {
-  background-image: url(/bg5.jpg);
+  background-image: url(/background//bg5.jpg);
 }
 
 .bg-6 {
-  background-image: url(/bg6.jpg);
+  background-image: url(/background//bg6.jpg);
 }
 
 .height {

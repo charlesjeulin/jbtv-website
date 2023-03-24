@@ -42,7 +42,23 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Petit blog avec les evenements actuels
 - Présentation du bureau: photo, lien linkedin, telephone, mail, titre, nom
 - Présentation de nos activités: Rejoins nous
+  - Apprendre et partager ses connaissances
+  - Decouvrir la photographie et la vidéo
+  - Participer à des concours
+  - S'investir dans des projets
 - Lien vers galerie et quelques photos
 - Présentation et histoire de l'association
 - Sponsors
 - Contacts
+
+La possibilité de développer des compétences : Faites savoir aux étudiants qu'ils peuvent améliorer leurs compétences en photographie et en vidéographie en rejoignant l'association. Vous pouvez mettre en avant les ateliers de formation, les sessions de mentorat et les événements organisés par l'association pour les aider à améliorer leurs compétences.
+
+La chance de rencontrer d'autres étudiants passionnés par la photo et la vidéo : L'association peut offrir aux étudiants un espace pour rencontrer d'autres étudiants qui partagent leur passion pour la photo et la vidéo. Ils peuvent se faire de nouveaux amis, échanger des idées et collaborer sur des projets.
+
+Partager ses connaissances et son savoir-faire
+
+La possibilité de participer à des événements et des concours : L'association peut organiser des événements liés à la photo et à la vidéo, tels que des expositions, des projections de films et des concours. Les étudiants qui rejoignent l'association auront la possibilité de participer à ces événements et de montrer leur travail au public.
+
+L'opportunité de travailler sur des projets créatifs : L'association peut offrir aux étudiants la possibilité de travailler sur des projets créatifs, tels que la réalisation de courts métrages ou de documentaires. Les membres peuvent collaborer pour créer quelque chose de vraiment unique et de qualité.
+
+La possibilité de contribuer à la communauté : L'association peut travailler en collaboration avec d'autres organisations et fournir des services de photographie et de vidéographie pour des événements communautaires. Les membres peuvent ainsi donner de leur temps et de leur talent pour aider leur communauté, ce qui est une expérience très valorisante.
