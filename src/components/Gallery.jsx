@@ -11,61 +11,61 @@ const Gallery = () => {
         <h1 className="font-bold text-4xl text-center pb-12 pt-12">Galerie</h1>
         <div className="sm:columns-3 columns-2 lg:columns-4 gap-3 max-w-[1240px] mx-auto space-y-3 p-6 pt-12 pb-20">
           <div className="break-inside-avoid">
-            <Image src="/1.jpg" width={500} height={500} />
+            <Image src="/1.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/4.jpg" width={500} height={500} />
+            <Image src="/4.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/5.jpg" width={500} height={500} />
+            <Image src="/5.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/3.jpg" width={500} height={500} />
+            <Image src="/3.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/2.jpg" width={500} height={500} />
+            <Image src="/2.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/6.jpg" width={500} height={500} />
+            <Image src="/6.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/7.jpg" width={500} height={500} />
+            <Image src="/7.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/8.jpg" width={500} height={500} />
+            <Image src="/8.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/9.jpg" width={500} height={500} />
+            <Image src="/9.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/10.jpg" width={500} height={500} />
+            <Image src="/10.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/11.jpg" width={500} height={500} />
+            <Image src="/11.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/12.jpg" width={500} height={500} />
+            <Image src="/12.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/13.jpg" width={500} height={500} />
+            <Image src="/13.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/14.jpg" width={500} height={500} />
+            <Image src="/14.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/15.jpg" width={500} height={500} />
+            <Image src="/15.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/16.jpg" width={500} height={500} />
+            <Image src="/16.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/17.jpg" width={500} height={500} />
+            <Image src="/17.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/18.jpg" width={500} height={500} />
+            <Image src="/18.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
           <div className="break-inside-avoid">
-            <Image src="/19.jpg" width={500} height={500} />
+            <Image src="/19.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
         </div>
       </div>

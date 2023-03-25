@@ -17,6 +17,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 1"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -45,6 +46,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 2"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -73,6 +75,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 3"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -101,6 +104,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 4"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -129,6 +133,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 5"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -157,6 +162,7 @@ const Bureau = () => {
               src="/bureau/president.jpg"
               width={500}
               height={500}
+              alt="Photo burau 6"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black"></div>
@@ -184,10 +190,3 @@ const Bureau = () => {
 };
 
 export default Bureau;
-
-{
-  /*<div>
-        <h1 className="font-bold text-4xl">Bureau</h1>
-        <p className="">Lorem ipsum</p>
-  </div>*/
-}

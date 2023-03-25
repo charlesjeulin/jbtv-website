@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import { HiOutlineTrophy } from "react-icons/hi2";
 import { FaCameraRetro } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";

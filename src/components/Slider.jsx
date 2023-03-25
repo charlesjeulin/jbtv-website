@@ -18,7 +18,6 @@ const Slider = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
-
   return (
     <div id="gallery" className="max-w-[1400px] mx-auto mt-6">
       <div className="relative flex justify-center">
@@ -40,7 +39,7 @@ const Slider = ({ slides }) => {
               {index === current && (
                 <Image
                   src={slide.image}
-                  alt="/"
+                  alt="Photo Slider"
                   width="1920"
                   height="1080"
                   style={{ objectFit: "cover" }}

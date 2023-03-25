@@ -5,15 +5,12 @@ const Histoire = () => {
   return (
     <div
       id="Histoire"
-      className="flex flex-col items-center justify-center h-screen"
+      className="flex flex-col items-center justify-center h-full"
     >
-      <h1 className="font-bold text-4xl text-center pb-28 pt-5">
+      <h1 className="font-bold text-4xl text-center pb-28 pt-36 ml-12 mr-12">
         Histoire de l'ECE et de la JBTV
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-20 pl-12 pr-12">
-        <div>
-          <Image src="/picture/histoire.jpg" width={976} height={664} />
-        </div>
+      <div className="grid grid-cols-1 items-center md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-20 ml-12 mr-12 pb-48 text-justify">
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum
           feugiat neque, elementum hendrerit eros pharetra sit amet. Aliquam
@@ -40,6 +37,14 @@ const Histoire = () => {
           varius natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Proin vitae erat nisl. In tincidunt nisl nulla, ac
           elementum ex semper egestas.
+        </div>
+        <div>
+          <Image
+            src="/picture/histoire.jpg"
+            width={976}
+            height={664}
+            alt="Photo Histoire"
+          />
         </div>
       </div>
     </div>

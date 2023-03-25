@@ -1,11 +1,15 @@
 export const SliderData = [
   {
-    image: '/slider1.jpg',
+    title: "Concours photo",
+    date: "Du 1er au 31 octobre",
+    message:
+      "Le concours photo est ouvert ! Bon courage à tout le monde, postez votre photo avec nos liens sur Instagram",
+    image: "/picture/concours.jpeg",
   },
   {
-    image: '/slider2.jpg',
-  },
-  {
-    image: '/slider3.jpg',
+    title: "Cours débutant photo",
+    date: "22 octobre",
+    message: "Le cours est ouvert à tout le monde, surtout aux débutants !",
+    image: "/picture/cours.jpg",
   },
 ];
