@@ -9,14 +9,14 @@ const Gallery = () => {
     >
       <div>
         <h1 className="font-bold text-4xl text-center pb-12 pt-12">Galerie</h1>
-        <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 lg:ml-20 lg:mr-20 space-y-3 pt-12 pb-20 max-w-fit">
+        <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 ml:0 mr:0 lg:ml-20 lg:mr-20 space-y-3 pt-12 pb-20 max-w-fit">
           <div className="break-inside-avoid">
             <Image
               src="/gallery/1.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
-              className="w-fit"
+              className=""
             />
           </div>
           <div className="break-inside-avoid">
@@ -25,7 +25,7 @@ const Gallery = () => {
               width={500}
               height={500}
               alt="Photo Gallery"
-              className="w-fit"
+              className=""
             />
           </div>
           <div className="break-inside-avoid">
@@ -34,7 +34,7 @@ const Gallery = () => {
               width={500}
               height={500}
               alt="Photo Gallery"
-              className="w-fit"
+              className=""
             />
           </div>
           <div className="break-inside-avoid">
