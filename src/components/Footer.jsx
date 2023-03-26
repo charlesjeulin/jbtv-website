@@ -18,8 +18,8 @@ const Footer = () => {
             La JBTV est l&apos;association audiovisuelle de l&apos;ECE.
           </p>
           <p>
-            Elle couvre les évènements de l'école en photos et en vidéos, et te
-            propose tous ces souvenirs sur son site.
+            Elle couvre les évènements de l&apos;école en photos et en vidéos,
+            et te propose tous ces souvenirs sur son site.
           </p>
           <p>Vous voulez apprendre et vous amuser ? Rejoignez nous !</p>
         </div>

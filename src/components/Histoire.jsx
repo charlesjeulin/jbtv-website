@@ -10,7 +10,7 @@ const Histoire = () => {
       <h1 className="font-bold text-4xl text-center pb-28 pt-36 ml-12 mr-12">
         Histoire de l&apos;ECE et de la JBTV
       </h1>
-      <div className="grid grid-cols-1 items-center md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-20 ml-12 mr-12 pb-48 text-justify">
+      <div className="grid grid-cols-1 items-center md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-20 ml-12 mr-12 lg:ml-28 lg:mr-28 pb-48 text-justify">
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum
           feugiat neque, elementum hendrerit eros pharetra sit amet. Aliquam

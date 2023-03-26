@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { SliderData } from "../components/SliderData";
 import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
 
@@ -38,14 +39,22 @@ const Events = ({ slides }) => {
             {index === current && (
               <div className="flex rounded-xl shadow-lg">
                 <div className="relative hidden lg:flex flex-col min-h-full items-center justify-center max-h-96">
-                  <img src={slide.image} className="rounded-xl max-h-96" />
+                  <Image
+                    src={slide.image}
+                    width="576"
+                    height="384"
+                    alt="image events"
+                    className="rounded-xl"
+                  />
                 </div>
                 <div className="bg-white rounded-xl shadow-md h-96 lg:w-80 flex flex-col relative w-80 flex-shrink-0">
-                  <img
+                  <Image
                     src={"/filigrane.png"}
-                    className="absolute w-[70%] ml-[3rem] top-0 transform -translate-y-[50%] "
-                    alt="/"
+                    width="1920"
+                    height="1080"
+                    alt="logo events"
                     style={{ objectFit: "cover" }}
+                    className="absolute w-[70%] ml-[3rem] top-0 transform -translate-y-[50%] "
                   />
                   <div className="mt-28 text-center">
                     <h1 className="text-2xl font-bold text-gray-800">
