@@ -21,9 +21,9 @@ const Events = ({ slides }) => {
   return (
     <div
       id="Events"
-      className="flex flex-col justify-center items-center h-screen mx-auto max-w-[1240px]"
+      className="flex flex-col justify-center items-center h-full pt-36 mb-48 mx-auto max-w-[1240px]"
     >
-      <h1 className="font-bold text-4xl text-center pb-36">
+      <h1 className="font-bold text-4xl text-center pb-44 pt-10">
         Evenements du moment
       </h1>
       {SliderData.map((slide, index) => {

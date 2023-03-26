@@ -9,7 +9,7 @@ const Gallery = () => {
     >
       <div>
         <h1 className="font-bold text-4xl text-center pb-12 pt-12">Galerie</h1>
-        <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 lg:ml-20 lg:mr-20 space-y-3 p-6 pt-12 pb-20">
+        <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 lg:ml-20 lg:mr-20 space-y-3 p-6 pt-12 pb-20 max-w-max">
           <div className="break-inside-avoid">
             <Image src="/1.jpg" width={500} height={500} alt="Photo Gallery" />
           </div>
