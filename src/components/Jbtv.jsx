@@ -13,7 +13,7 @@ const Jbtv = () => {
       className="flex flex-col items-center justify-center h-full pt-28 pb-12"
     >
       <h1 className="font-bold text-4xl text-center pb-28 pt-5">
-        La JBTV, c'est quoi ?
+        La JBTV, c&apos;est quoi ?
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 pb-20">
         <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
@@ -56,15 +56,15 @@ const Jbtv = () => {
                     />
                   </li>
                   <li className="group-hover:translate-y-[-5rem] transition-transform duration-300 pl-8 pr-8">
-                    La chance de rencontrer d'autres étudiants passionnés
+                    La chance de rencontrer d&apos;autres étudiants passionnés
                   </li>
                 </ul>
               </div>
               <div className="mt-[-10rem] [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <ul className=" pl-8 pr-8">
                   <li>
-                    Un espace pour rencontrer d'autres étudiants qui partagent
-                    leur passion pour la photo et la vidéo.
+                    Un espace pour rencontrer d&apos;autres étudiants qui
+                    partagent leur passion pour la photo et la vidéo.
                   </li>
                   <li>Echanger des idées et collaborer sur des projets.</li>
                 </ul>
@@ -94,7 +94,7 @@ const Jbtv = () => {
                     Les membres de la JBTV peuvent partager aux autres leurs
                     techniques et évoluer ensemble.
                   </li>
-                  <li>C'est un espace d'entraide et de partage.</li>
+                  <li>C&apos;est un espace d&apos;entraide et de partage.</li>
                 </ul>
               </div>
             </button>
@@ -140,7 +140,7 @@ const Jbtv = () => {
                     />
                   </li>
                   <li className="group-hover:translate-y-[-5rem] transition-transform duration-300 pl-8 pr-8">
-                    L'opportunité de travailler sur des projets créatifs
+                    L&apos;opportunité de travailler sur des projets créatifs
                   </li>
                 </ul>
               </div>
@@ -148,7 +148,7 @@ const Jbtv = () => {
                 <ul className=" pl-8 pr-8">
                   <li>
                     Des projets créatifs, tels que la réalisation de courts
-                    métrages ou d'interviews.
+                    métrages ou d&apos;interviews.
                   </li>
                   <li>Collaboration à plusieurs pour un résultat unique</li>
                 </ul>
@@ -175,8 +175,8 @@ const Jbtv = () => {
               <div className="mt-[-9rem] [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <ul className=" pl-8 pr-8">
                   <li>
-                    Collaboration avec d'autres associations et à des événements
-                    communautaires.
+                    Collaboration avec d&apos;autres associations et à des
+                    événements communautaires.
                   </li>
                   <li>
                     Donner de son temps et de son talent au service des autres.

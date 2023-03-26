@@ -52,19 +52,29 @@ const Navbar = () => {
             <Link href="/">Accueil</Link>
           </li>
           <li className="p-4">
-            <a href="/#Events">Evenements</a>
+            <Link href="/#Events" scroll={false}>
+              Evenements
+            </Link>
           </li>
           <li className="p-4">
-            <a href="/#Gallery">Galerie</a>
+            <Link href="/#Gallery" scroll={false}>
+              Galerie
+            </Link>
           </li>
           <li className="p-4">
-            <a href="/#Jbtv">Rejoins-Nous</a>
+            <Link href="/#Jbtv" scroll={false}>
+              Rejoins-Nous
+            </Link>
           </li>
           <li className="p-4">
-            <a href="/#Bureau">Bureau</a>
+            <Link href="/#Bureau" scroll={false}>
+              Bureau
+            </Link>
           </li>
           <li className="p-4">
-            <a href="/#Histoire">Histoire</a>
+            <Link href="/#Histoire" scroll={false}>
+              Histoire
+            </Link>
           </li>
         </ul>
 
@@ -84,12 +94,52 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl hover:text-gray-500">Accueil</li>
-            <li className="p-4 text-4xl hover:text-gray-500">Evenements</li>
-            <li className="p-4 text-4xl hover:text-gray-500">Galerie</li>
-            <li className="p-4 text-4xl hover:text-gray-500">Bureau</li>
-            <li className="p-4 text-4xl hover:text-gray-500">Rejoins-Nous</li>
-            <li className="p-4 text-4xl hover:text-gray-500">Histoire</li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/">Accueil</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#Events" scroll={false}>
+                Evenements
+              </Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#Gallery" scroll={false}>
+                Galerie
+              </Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#Jbtv" scroll={false}>
+                Rejoins-Nous
+              </Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#Bureau" scroll={false}>
+                Bureau
+              </Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#Histoire" scroll={false}>
+                Histoire
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

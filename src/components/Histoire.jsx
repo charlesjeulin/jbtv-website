@@ -8,7 +8,7 @@ const Histoire = () => {
       className="flex flex-col items-center justify-center h-full"
     >
       <h1 className="font-bold text-4xl text-center pb-28 pt-36 ml-12 mr-12">
-        Histoire de l'ECE et de la JBTV
+        Histoire de l&apos;ECE et de la JBTV
       </h1>
       <div className="grid grid-cols-1 items-center md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-20 ml-12 mr-12 pb-48 text-justify">
         <div>

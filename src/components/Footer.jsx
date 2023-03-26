@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { TbCopyright, TbSquareChevronRight } from "react-icons/tb";
 import {
   AiFillFacebook,
@@ -14,7 +15,7 @@ const Footer = () => {
         <div>
           <Image src="/filigrane.png" alt="logo" width={100} height={62} />
           <p className="pt-5">
-            La JBTV est l'association audiovisuelle de l'ECE.
+            La JBTV est l&apos;association audiovisuelle de l&apos;ECE.
           </p>
           <p>
             Elle couvre les évènements de l'école en photos et en vidéos, et te
@@ -28,31 +29,41 @@ const Footer = () => {
             <li className="pb-4 flex justify-left items-center">
               <TbSquareChevronRight className="mr-2" />
               <div className="hover:ml-2 hover:font-bold">
-                <a href="/#Events">Evenements</a>
+                <Link href="/#Events" scroll={false}>
+                  Evenements
+                </Link>
               </div>
             </li>
             <li className="pb-4 flex justify-left items-center">
               <TbSquareChevronRight className="mr-2" />
               <div className="hover:ml-2 hover:font-bold">
-                <a href="/#Gallery">Galerie</a>
+                <Link href="/#Gallery" scroll={false}>
+                  Galerie
+                </Link>
               </div>
             </li>
             <li className="pb-4 flex justify-left items-center">
               <TbSquareChevronRight className="mr-2" />
               <div className="hover:ml-2 hover:font-bold">
-                <a href="/#Jbtv">Rejoins-Nous</a>
+                <Link href="/#Jbtv" scroll={false}>
+                  Rejoins-Nous
+                </Link>
               </div>
             </li>
             <li className="pb-4 flex justify-left items-center">
               <TbSquareChevronRight className="mr-2" />
               <div className="hover:ml-2 hover:font-bold">
-                <a href="/#Bureau">Bureau</a>
+                <Link href="/#Bureau" scroll={false}>
+                  Bureau
+                </Link>
               </div>
             </li>
             <li className="pb-4 flex justify-left items-center">
               <TbSquareChevronRight className="mr-2" />
               <div className="hover:ml-2 hover:font-bold">
-                <a href="/#Histoire">Histoire</a>
+                <Link href="/#Histoire" scroll={false}>
+                  Histoire
+                </Link>
               </div>
             </li>
           </ul>
