@@ -12,7 +12,7 @@ const Gallery = () => {
         <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 lg:ml-20 lg:mr-20 space-y-3 p-6 pt-12 pb-20 max-w-fit">
           <div className="break-inside-avoid">
             <Image
-              src="/1.jpg"
+              src="/gallery/1.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -21,7 +21,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/4.jpg"
+              src="/gallery/4.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -30,7 +30,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/5.jpg"
+              src="/gallery/5.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -39,7 +39,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/3.jpg"
+              src="/gallery/3.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -48,7 +48,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/2.jpg"
+              src="/gallery/2.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -57,7 +57,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/6.jpg"
+              src="/gallery/6.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -66,7 +66,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/7.jpg"
+              src="/gallery/7.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -75,7 +75,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/8.jpg"
+              src="/gallery/8.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -84,7 +84,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/9.jpg"
+              src="/gallery/9.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -93,7 +93,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/10.jpg"
+              src="/gallery/10.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -102,7 +102,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/11.jpg"
+              src="/gallery/11.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -111,7 +111,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/12.jpg"
+              src="/gallery/12.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -120,7 +120,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/13.jpg"
+              src="/gallery/13.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -129,7 +129,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/14.jpg"
+              src="/gallery/14.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -138,7 +138,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/15.jpg"
+              src="/gallery/15.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -147,7 +147,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/16.jpg"
+              src="/gallery/16.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -156,7 +156,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/17.jpg"
+              src="/gallery/17.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -165,7 +165,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/18.jpg"
+              src="/gallery/18.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
@@ -174,7 +174,7 @@ const Gallery = () => {
           </div>
           <div className="break-inside-avoid">
             <Image
-              src="/19.jpg"
+              src="/gallery/19.jpg"
               width={500}
               height={500}
               alt="Photo Gallery"
