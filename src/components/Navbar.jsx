@@ -33,7 +33,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="max-w-[1240px] m-auto flex items-center justify-between p-4 text-white">
+      <div className="flex items-center justify-between lg:justify-around p-4 text-white">
         {logo ? (
           <Link href="/">
             <Image src="/filigrane.png" alt="logo" width={100} height={62} />
