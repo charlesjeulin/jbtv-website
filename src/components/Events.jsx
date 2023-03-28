@@ -23,7 +23,7 @@ const Events = ({ slides }) => {
       id="Events"
       className="flex flex-col justify-center items-center h-full pt-36 mb-48 mx-auto max-w-[1240px]"
     >
-      <h1 className="font-bold text-4xl text-center pb-44 pt-10">
+      <h1 className="font-black text-4xl text-center pb-44 pt-10">
         Evenements du moment
       </h1>
       {SliderData.map((slide, index) => {
