@@ -8,7 +8,9 @@ const Gallery = () => {
       className="flex flex-col items-center justify-center h-full pb-12 pt-12"
     >
       <div>
-        <h1 className="font-bold text-4xl text-center pb-12 pt-12">Galerie</h1>
+        <h1 className="font-extrabold text-6xl text-center pb-12 pt-12">
+          Galerie
+        </h1>
         <div className="sm:columns-2 columns-1 lg:columns-4 gap-3 ml:0 mr:0 lg:ml-20 lg:mr-20 space-y-3 pt-12 pb-20 max-w-fit">
           <div className="break-inside-avoid">
             <Image

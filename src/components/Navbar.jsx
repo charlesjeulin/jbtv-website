@@ -8,9 +8,14 @@ const Navbar = () => {
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("text-white");
   const [logo, setLogo] = useState(false);
+  const [itemSelected, setItemSelected] = useState("accueil");
 
   const handleNav = () => {
     setNav(!nav);
+  };
+
+  const handleItemSelected = (item) => {
+    setItemSelected(item);
   };
 
   useEffect(() => {
@@ -33,7 +38,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="flex items-center justify-between lg:justify-around p-4 text-white">
+      <div className="max-w-[1240px] m-auto flex items-center justify-between p-4 text-white">
         {logo ? (
           <Link href="/">
             <Image src="/filigrane.png" alt="logo" width={100} height={62} />
@@ -48,32 +53,78 @@ const Navbar = () => {
         )}
 
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
-            <Link href="/">Accueil</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/#Events" scroll={false}>
-              Evenements
+          <li className="p-4 group">
+            <Link href="/" onClick={() => handleItemSelected("accueil")}>
+              Accueil
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}
+              {/* itemSelected === "accueil" ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-100 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )*/}
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 group">
+            <Link
+              href="/#Events"
+              scroll={false}
+              onClick={() => handleItemSelected("events")}
+            >
+              Evenements
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}
+              {/* itemSelected === "events" ? (
+                <div className="w-full pt-10 h-0.5 rounded-2xl bg-black scale-x-100 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )*/}
+            </Link>
+          </li>
+          <li className="p-4 group">
             <Link href="/#Gallery" scroll={false}>
               Galerie
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}{" "}
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 group">
             <Link href="/#Jbtv" scroll={false}>
               Rejoins-Nous
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}{" "}
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 group">
             <Link href="/#Bureau" scroll={false}>
               Bureau
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}{" "}
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 group">
             <Link href="/#Histoire" scroll={false}>
               Histoire
+              {logo ? (
+                <div className="w-full h-0.5 rounded-2xl bg-black scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              ) : (
+                <div className="w-full h-0.5 rounded-2xl bg-white scale-x-0 z-40 group-hover:scale-x-100 transition-transform" />
+              )}
             </Link>
           </li>
         </ul>

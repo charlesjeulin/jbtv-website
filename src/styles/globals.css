@@ -34,3 +34,12 @@ html {
 .height-footer {
   height:30vh;
 }
+
+.hidd {
+  opacity: 0;
+  transition: all 5s;
+}
+
+.show {
+  opacity: 1;
+}

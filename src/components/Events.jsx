@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { SliderData } from "../components/SliderData";
 import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Events = ({ slides }) => {
   const [current, setCurrent] = React.useState(0);
@@ -18,12 +21,19 @@ const Events = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div
+      data-aos="fade-right"
+      data-aos-offset="400"
       id="Events"
       className="flex flex-col justify-center items-center h-full pt-36 mb-48 mx-auto max-w-[1240px]"
     >
-      <h1 className="font-black text-4xl text-center pb-44 pt-10">
+      <h1 className="font-extrabold text-6xl text-center pb-44 pt-10">
         Evenements du moment
       </h1>
       {SliderData.map((slide, index) => {

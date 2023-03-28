@@ -8,7 +8,7 @@ const Bureau = () => {
       id="Bureau"
       className="flex flex-col items-center justify-center h-full pt-20 pb-28"
     >
-      <h1 className="font-bold text-4xl text-center pb-28 pt-5">Bureau</h1>
+      <h1 className="font-extrabold text-6xl text-center pb-28 pt-5">Bureau</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-20">
         <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
           <div className="h-80 w-80">

@@ -1,5 +1,5 @@
+import React, { useEffect } from "react";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Hero from "../components/Hero";
 import { SliderData } from "../components/SliderData";
 import Events from "../components/Events";
@@ -8,7 +8,14 @@ import Jbtv from "../components/Jbtv";
 import Bureau from "../components/Bureau";
 import Histoire from "../components/Histoire";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <>
       <Head>
@@ -18,15 +25,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading="" message="" />
-      <Events slides={SliderData} />
+      <div>
+        <Events slides={SliderData} />
+      </div>
       <div className="bg-2 height bg-fixed bg-center bg-cover"></div>
-      <Gallery />
+      <Gallery className="hidd" />
       <div className="bg-3 height bg-fixed bg-center bg-cover"></div>
-      <Jbtv />
+      <Jbtv className="hidd" />
       <div className="bg-4 height bg-fixed bg-center bg-cover"></div>
-      <Bureau />
+      <Bureau className="hidd" />
       <div className="bg-5 height bg-fixed bg-center bg-cover"></div>
-      <Histoire />
+      <Histoire className="hidd" />
     </>
   );
 }

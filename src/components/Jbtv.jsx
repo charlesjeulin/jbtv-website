@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { HiOutlineTrophy } from "react-icons/hi2";
 import { FaCameraRetro } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
@@ -6,17 +6,27 @@ import { GiFilmProjector } from "react-icons/gi";
 import { CgCommunity } from "react-icons/cg";
 import { SiSlideshare } from "react-icons/si";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Jbtv = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div
       id="Jbtv"
       className="flex flex-col items-center justify-center h-full pt-28 pb-12"
     >
-      <h1 className="font-bold text-4xl text-center pb-28 pt-5">
+      <h1 className="font-extrabold text-6xl text-center pb-28 pt-5">
         La JBTV, c&apos;est quoi ?
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 pb-20">
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-right"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
@@ -44,7 +54,10 @@ const Jbtv = () => {
             </button>
           </div>
         </div>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-down"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
@@ -72,7 +85,10 @@ const Jbtv = () => {
             </button>
           </div>
         </div>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-left"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
@@ -100,7 +116,10 @@ const Jbtv = () => {
             </button>
           </div>
         </div>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-right"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
@@ -128,7 +147,10 @@ const Jbtv = () => {
             </button>
           </div>
         </div>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-up"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
@@ -156,7 +178,10 @@ const Jbtv = () => {
             </button>
           </div>
         </div>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]">
+        <div
+          data-aos="fade-left"
+          className="group relative items-center justify-center overflow-hidden cursor-pointer [perspective-1000px]"
+        >
           <div className="h-64 w-80 bg-white flex flex-col items-center justify-center text-center group-hover:bg-gray-100 rounded-2xl">
             <button className="[transform-style:preserve-3d] focus:[transform:rotateY(180deg)] focus:[backface-visibility:hidden] group-hover:[backface-visibility:hidden] transition-all duration-300">
               <div>
