@@ -7,6 +7,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Events = ({ slides }) => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   const [current, setCurrent] = React.useState(0);
   const length = slides.length;
 
@@ -21,10 +25,6 @@ const Events = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
-
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
 
   return (
     <div
